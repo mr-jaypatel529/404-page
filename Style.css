@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bec7d1;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  color: #555a64;
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 1rem;
+  max-width: 350px;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.5;
+  color: #555;
+}
+
+.image-container {
+  width: 300px;
+  max-width: 90vw;
+  margin-bottom: 2rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+.attribution {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  color: #7a7f89;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.attribution a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-contact {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border-radius: 40px;
+  border: 2px solid #555a64;
+  background: transparent;
+  color: #555a64;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+  background-color: #555a64;
+  color: #f9f9f9;
+  outline: none;
+}
+
+.btn-contact:focus-visible {
+  outline: 3px solid #4a90e2;
+  outline-offset: 3px;
+}
