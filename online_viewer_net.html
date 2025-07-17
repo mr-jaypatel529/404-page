@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 Page Not Found</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #bec7d1;
+      font-family: 'Open Sans', sans-serif;
+      color: #555a64;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.25rem;
+      margin-bottom: 0.3rem;
+      color: #555a64;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .header {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.25rem;
+      color: #555a64;
+    }
+
+    .subtext {
+      font-weight: 400;
+      font-size: 1rem;
+      max-width: 320px;
+      margin: 0 auto 1.5rem auto;
+      line-height: 1.4;
+      color: #555a64;
+    }
+
+    .image-container {
+      width: 300px;
+      max-width: 90vw;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    .attribution {
+      font-size: 0.675rem;
+      letter-spacing: 0.06em;
+      color: #7a7f89;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+
+    .attribution a {
+      color: #5a9bd6;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .btn-contact {
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.6rem 2rem;
+      border-radius: 40px;
+      border: 2px solid #555a64;
+      background: transparent;
+      color: #555a64;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      user-select: none;
+    }
+
+    .btn-contact:hover,
+    .btn-contact:focus {
+      background-color: #555a64;
+      color: #f9f9f9;
+      outline: none;
+    }
+
+    /* Accessibility focus outline */
+    .btn-contact:focus-visible {
+      outline: 3px solid #5a9bd6;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Oops!</h2>
+  <div class="image-container" aria-label="Construction roadblock barrier with yellow 404 diamond sign and orange cones on a soft blue background">
+    <a href="https://ibb.co/zHbkwZcJ"><img src="https://i.ibb.co/YT8rGh9Z/error-colored-isometric-composition-signs-tools-materials-solving-problems-errors-computer-vector-il.png" alt="error-colored-isometric-composition-signs-tools-materials-solving-problems-errors-computer-vector-il" border="0"></a>
+  </div>
+  <h1>PAGE NOT FOUND</h1>
+  <p class="subtext">
+    Sorry, the page you're looking for doesn't exist.<br />
+    If you think something is broken, report a problem.
+  </p>
+  <div class="buttons">
+    <button class="btn-contact" onclick="openContactForm()" aria-label="Contact us">Contact Us</button>
+  </div>
+
+  <script>
+    function openContactForm() {
+      // For demo: just alert
+      alert('Contact us at mr.jaypatel529@hotmail.com or call: +1-236-332-3693');
+    }
+  </script>
+</body>
+</html>
+
+
+
